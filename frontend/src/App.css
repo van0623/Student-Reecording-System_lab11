@@ -1,0 +1,101 @@
+/* custom-theme.css */
+
+body {
+  background-color: #F5EEDC;
+  color: #183B4E;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.text-center {
+  text-align: center;
+  margin-top: 30px;
+}
+
+form,
+.student-list {
+  background-color: #ffffff;
+  border: 2px solid #DDA853;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(24, 59, 78, 0.1);
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #27548A;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #F5EEDC;
+  color: #183B4E;
+}
+
+input::placeholder {
+  color: #7c8b9a;
+}
+
+button {
+  background-color: #27548A;
+  color: #ffffff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #183B4E;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 15px 0;
+  background: #ffffff;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-left: 6px solid #DDA853;
+  box-shadow: 0 2px 4px rgba(39, 84, 138, 0.1);
+}
+
+li img {
+  border-radius: 50%;
+  margin-right: 15px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border: 2px solid #27548A;
+}
+
+li .info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex: 1;
+}
+
+li .actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+p {
+  color: #DDA853;
+  font-weight: bold;
+  margin-top: 15px;
+}
